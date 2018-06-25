@@ -1,0 +1,59 @@
+body {
+  background-color: #EEEEF1;
+}
+
+h1 {
+  font-size: 32px;
+  color: #3344AE;
+}
+
+h2 {
+  font-size: 24px;
+  color: #3344AE;
+}
+
+#info dt.info-label {
+  color: #333;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+dd.info-text+dt.info-label {
+  margin-top: 10px;
+}
+
+dd.info-text {
+  font-family: Times New Roman, serif;
+}
+
+table,td,th {
+  border: 1px solid #999;
+  border-collapse: collapse;
+  border-spacing: 0;
+  
+}
+
+td,th {
+  padding: 2px 5px;
+  min-width: 88px;
+  text-indent: 1em;
+}
+
+th {
+  color: #333;
+  text-align: left;
+}
+
+#project .project-year {
+  font-style: italic;
+}
+
+#project .project-name {
+  text-shadow: 1px 1px 5px #333;
+}
+
+.underline {
+  color: red;
+  font-style: normal;
+  text-decoration: underline red;
+}
